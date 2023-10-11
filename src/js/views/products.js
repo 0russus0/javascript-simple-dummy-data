@@ -1,4 +1,5 @@
-export default () => /*html*/`
-    <h1>Products</h1>
-    <p>Add products from DummyJSON</p>
-`;
+import '../components/productsList.js';
+
+export default () => /*html*/ `
+<h1>The products</h1>
+<products-list></products-list>`;
